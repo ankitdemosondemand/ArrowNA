@@ -1,0 +1,745 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400);
+
+body
+{
+    font-family: "Open Sans";
+}
+
+.site-header
+{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16pt;
+}
+
+.header-right
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.header-right .pull-right
+{
+    text-align: center;
+}
+
+.header-center
+{
+    padding-top: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+img
+{
+    max-width: 100%;
+}
+
+
+/* MENU STYLING */
+nav.main-menu
+{
+    padding: 5px;
+    background-color: #27a9e1;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.main-menu-list
+{
+    height: 55px;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main-menu-list li
+{
+    word-spacing: 9999999px;
+    vertical-align: middle;
+    font-size: 14pt;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 16.3%;
+    text-align: center;
+}
+
+.main-menu-list li a
+{
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.main-menu-list .active
+{
+    font-weight: 600;
+}
+
+.main-menu-list li a:hover, .main-menu-list li a:focus
+{
+    text-decoration: none;
+}
+
+
+/* END MENU STYLING */
+
+
+
+
+.emc-info-block
+{
+    background-color: #58585b;
+    width: 100%;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.emc-biz-img
+{
+    padding: 15px;
+    text-align: center;
+}
+
+.emc-biz-copy
+{
+    color: #fff;
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.emc-showcase-button
+{
+    border: none;
+    font-size: 16pt;
+    font-weight: 300;
+    border-top: 2px solid #27a9e1;
+    border-bottom: 2px solid #27a9e1;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: inherit;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.emc-showcase-button:focus
+{
+    outline: none;
+}
+
+.emc-showcase-button img
+{
+    height: 25px;
+}
+
+.spacer
+{
+    height: 35px;
+}
+
+.page-title-block
+{
+    padding: 15px;
+    padding-left: 30px;
+    color: #fff;
+    font-size: 26pt;
+    font-weight: 300;
+    text-transform: uppercase;
+    min-height: 15px;
+    background-color: #27a9e1;
+}
+
+.page-title-block a
+{
+    color: #fff;
+}
+
+.arrow-solutions-bg
+{
+    background-color: #2a73af !important;
+}
+
+.arrow-academy-bg
+{
+    background-color: #404041 !important;
+}
+
+.engineering-services-bg
+{
+    background-color: #912686 !important;
+}
+
+.enablement-center-bg
+{
+    background-color: #f7931d !important;
+}
+
+.contact-bg
+{
+    background-color: #be1e2d !important;
+}
+
+.event-calendar-header
+{
+    margin-top: 40px;
+    width: 550px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 1px solid #000;
+    line-height: .2px;
+}
+
+.event-calendar-header span
+{
+    font-size: 36pt;
+    font-weight: 300;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: #fff;
+}
+
+.event-calendar
+{
+    width: 550px;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 250px;
+    background-color: #58585b;
+    margin-top: 20px;
+}
+
+.twitter-feed
+{
+    margin-top: 20px;
+    border: 1px solid #27a9e1;
+    width: 550px;
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 250px;
+}
+
+.twitter-feed-header
+{
+    font-family: "Roboto";
+    font-size: 100;
+    width: 100%;
+    color: #fff;
+    font-style: italic;
+    font-size: 32pt;
+    font-weight: 300;
+    min-height: 30px;
+    background-color: #27a9e1;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.twitter-feed-header img
+{
+    margin-top: -8px;
+    height: 35px;
+}
+
+.social-media-container
+{
+    width: 100%;
+    background-color: #e6e7e8;
+    min-height: 40px;
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 28pt;
+}
+
+.social-icons
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons img
+{
+    height: 45px;
+}
+
+.menu-toggle
+{
+    width: 100%;
+    text-align: right;
+    color: #fff;
+    font-size: 16pt;
+}
+
+@media only screen and (max-width:992px)
+{
+    .site-header
+    {
+        text-align: center !important;
+    }
+    .header-right .pull-right
+    {
+        word-spacing: 0px;
+        float: none !important;
+    }
+    .main-menu-list
+    {
+        display: none;
+        height: 345px;
+    }
+    .main-menu-list li
+    {
+        word-spacing: 0px;
+        border-bottom: 1px solid #fff;
+        display: block;
+        font-size: 12pt;
+        font-weight: 300;
+        color: #fff;
+        width: 100%;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:768px)
+{
+    .social-icons li
+    {
+        padding-right: 15px;
+    }
+    .social-icons img
+    {
+        height: 25px;
+    }
+    .social-icons
+    {
+        text-align: center;
+    }
+}
+
+.social-icons li
+{
+    padding-right: 35px;
+    display: inline;
+}
+
+.bottom-footer
+{
+    background-color: #404041;
+    color: #fff;
+    font-size: 16pt;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.site-content
+{
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a
+{
+    color: #27a9e1;
+}
+
+.light-blue
+{
+    color: #27a9e1;
+}
+
+
+/* ARROW SOLUTIONS STYLING */
+
+
+.as_icon-container
+{
+    display: block;
+    vertical-align: middle;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    font-size: 16pt;
+    border-radius: 8px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.as_icon-link
+{
+    color: #000 !important;
+}
+
+.as_icon-link:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.as_icon-container:hover, .as_icon-container.active
+{
+    background-color: #f1f1f2;
+    cursor: hand;
+}
+
+.as_icon-container img
+{
+    margin-bottom: 10px;
+    width: 90px;
+}
+.as_swiss-army h2
+{
+    color: #2a73af;
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+.as_list-swiss-army
+{
+    font-size: 13pt;
+    font-weight: 300;
+    list-style-image: url('/images/chevron-right-list.png');
+}
+
+.as_gen-info
+{
+    width: 90%;
+    min-height: 300px;
+    background-color: #2a73af;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
+    margin: 0 auto;
+}
+
+.as_overview-box
+{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f1f1f2;
+    border: 1px solid #2a73af;
+}
+
+.as_overview-title
+{
+    width: 100%;
+    background-color: #2a73af;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px;
+    text-align: left;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.as_overview-container
+{
+    padding: 15px;
+}
+
+h2.as_solution-title
+{
+    color: #2a73af;
+    font-style: italic;
+    font-size: 21pt;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.as_select
+{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    font-size: 14pt;
+    border: 1px solid #404041;
+}
+
+/* END Arrow Solutions STYLING */
+
+/* ARROW ACADEMY STYLING */
+
+.aa_tab-container
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.aa_tab
+{
+    width: 100%;
+    min-height: 250px;
+    background-color: #8bc5eb;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 14pt;
+    padding: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+    transition: all .2s ease-in;
+}
+
+.aa_tab:hover
+{
+    background-color: #27a9e1;
+    border-color: #000;
+    cursor: hand;
+}
+
+.aa_tab p
+{
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+
+.aa_tab-header
+{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+.aa_accordion-container
+{
+    margin-top: 5px;
+    margin-bottom: 80px;
+    width: 100%;
+    border: 1px solid #404041;
+    min-height: 150px;
+}
+
+.aa_icon-container
+{
+    width: 100%;
+    min-height: 150px;
+}
+
+.aa_icon
+{
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    min-height: 100px;
+    border: 2px solid transparent;
+    transition: all .2s ease-in;
+}
+
+.aa_icon:hover
+{
+    border-color: #27a9e1;
+    color: #27a9e1;
+    cursor: hand;
+}
+
+.aa_icon-img
+{
+    width: 100%;
+    height: 100px;
+}
+
+.aa_icon-img img
+{
+    max-height: 100%;
+}
+
+.aa_icon p
+{
+    margin-top: 15px;
+    font-size: 16pt;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+/* Engineering Services STYLING */
+
+.es_body
+{
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.es_color
+{
+    color: #652c90 !important;
+}
+
+.es_link-container
+{
+    color: #27a9e1;
+    font-size: 18pt;
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+}
+
+.es_solutions-lab
+{
+    margin-top: 40px;
+}
+
+.es_lab-features
+{
+    margin-top: 50px;
+    background-color: #f1f1f2;
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.es_lab-features ul
+{
+    margin: 0;
+    padding: 0;
+    padding-left: 9px;
+}
+
+.es_lab-features li
+{
+    list-style-type: none;
+}
+
+.es_request-demo
+{
+    width: 100%;
+    padding: 75px;
+}
+
+.es_demo-button
+{
+    margin: 0 auto;
+    display: inline-block;
+    border: 2px solid #652c90;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #652c90;
+    padding: 12px;
+    background-color: inherit;
+    width: 300px;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.es_demo-button:hover
+{
+    background-color: #652c90;
+    color: #fff;
+}
+
+.es_features-container
+{
+    background-color: #f1f1f2;
+    font-weight: 300;
+    font-size: 13pt;
+    padding: 20px;
+    min-height: 150px;
+}
+
+.es_features-container.alt-color
+{
+    background-color: #fff;
+}
+
+.es_features-container h2
+{
+    font-size: 21pt;
+    font-weight: 300;
+    padding-bottom: 0;
+}
+
+.es_engineer-container
+{
+    text-align: center;
+}
+
+.es_engineer-container h2
+{
+    font-weight: 300;
+}
+
+.es_people-spacer .col-md-3
+{
+    margin-top: 50px;
+}
+
+/* Enablement Center STYLING */
+
+.ec_body
+{
+    text-align: center;
+}
+
+.ec_tool-table-container
+{
+    margin-top: 50px;
+    text-align: left;
+    width: 100%;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #000;
+    background-color: #fdd09e;
+    min-height: 150px;
+}
+
+.ec_tool-table-container a
+{
+    color: #000;
+    text-decoration: underline;
+}
+.ec_tool-table-row
+{
+    padding: 15px;
+}
+
+.ec_alt-color
+{
+    background-color: #fee5ca !important;
+}
+
+.ec_tool-title
+{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ec_tool-table-header
+{
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14pt;
+    background-color: #f7931d;
+}
+
+
+
+
+/*# sourceMappingURL=sass.css.map */

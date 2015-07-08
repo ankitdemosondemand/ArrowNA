@@ -1,0 +1,4 @@
+C:\inetpub\wwwroot\ArrowNA\bin\ArrowNA.dll
+C:\inetpub\wwwroot\ArrowNA\bin\ArrowNA.pdb
+C:\inetpub\wwwroot\ArrowNA\obj\Debug\ArrowNA.dll
+C:\inetpub\wwwroot\ArrowNA\obj\Debug\ArrowNA.pdb
